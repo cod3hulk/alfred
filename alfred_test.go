@@ -22,12 +22,12 @@ func TestAdd(t *testing.T) {
 func TestAddAll(t *testing.T) {
 	result := new(Result)
 	items := []Item{
-		Item{
+		{
 			Arg:      "TestArg",
 			Subtitle: "TestSubtitle",
 			Title:    "TestTitle",
 		},
-		Item{
+		{
 			Arg:      "TestArg2",
 			Subtitle: "TestSubtitle2",
 			Title:    "TestTitle2",
@@ -44,12 +44,12 @@ func TestAddAll(t *testing.T) {
 func TestFilter(t *testing.T) {
 	result := new(Result)
 	items := []Item{
-		Item{
+		{
 			Arg:      "TestArg",
 			Subtitle: "TestSubtitle",
 			Title:    "TestTitle",
 		},
-		Item{
+		{
 			Arg:      "TestArg2",
 			Subtitle: "TestSubtitle2",
 			Title:    "TestTitle2",
